@@ -1,0 +1,64 @@
+
+
+ .card{
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    grid-template-rows: repeat(auto,200px);
+    margin-left: 68px;
+
+    padding: 25px;
+    gap: 10px;
+
+ }
+.card .card1{
+   
+    padding: 10px;
+    border-radius: 6px;
+    height: 45vh;
+    height: 60vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    border: 2px solid red;
+    box-shadow: 8px 6px 7px 6px darkgray;
+    
+
+}
+.card .card1 img{
+    width: 100px;
+    height: 100px;
+    
+
+}
+.card1 h1{
+
+    font-weight: 400;
+    color: blueviolet;
+    font-size: 14px;
+    margin: 12px 0px;
+}
+.card1 p{
+    margin: 15px 0px;
+    font-size: 18px;
+    line-height: 20px;
+    background-color: black;
+    color: aliceblue;
+
+
+    font-weight: 500;
+}
+.btn-learn{
+    padding: 8px ;
+    border-radius: 5px ;
+    border: none;
+    color: rgb(239, 243, 247);
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 22px;
+    width: 140px;
+    
+    background-color: rgb(94, 48, 149);
+}
+.btn-learn:hover{
+    box-shadow: 6px 5px 8px darkgray;
+}
